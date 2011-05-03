@@ -1,0 +1,38 @@
+.multipage_nav { border-top:1px solid #CCC; padding-top:10px;}
+.multipage_nav a { font-weight: bold; display:block; padding: 10px 20px; color: #FFF; text-shadow: #333 1px 1px 5px; text-decoration:none; -moz-box-shadow: 0px 0px 5px #333; -webkit-box-shadow: 0px 0px 5px #333; }
+.multipage_nav .multipage_next { float:right;
+	background: #a9db80; /* old browsers */
+	background: -moz-linear-gradient(top, #a9db80 0%, #96c56f 100%); /* firefox */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9db80), color-stop(100%,#96c56f)); /* webkit */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); /* ie */		
+}
+
+.multipage_nav .multipage_back { 
+	float:left;
+	background: #a9db80; /* old browsers */
+	background: -moz-linear-gradient(top, #a9db80 0%, #96c56f 100%); /* firefox */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9db80), color-stop(100%,#96c56f)); /* webkit */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); /* ie */		
+}
+
+.multipage_nav .submit { 
+
+	background: #fceabb; /* old browsers */
+	background: -moz-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%); /* firefox */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(50%,#fccd4d), color-stop(51%,#f8b500), color-stop(100%,#fbdf93)); /* webkit */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* ie */
+}
+
+.multipage_nav .multipage_state { display: block; text-align:center; width:100px; margin-left:auto;margin-right:auto; font-size:18px;}
+.multipage fieldset { border:0px; padding:10px; margin:0px; }
+
+ul.multipage_tabs { list-style-type: none; margin:0px; padding:0px; border-bottom:1px solid #CCC; margin-bottom:20px;}
+ul.multipage_tabs li { display:block; float: left; margin-right:20px;}
+ul.multipage_tabs li a { display:block; padding:10px; }
+ul.multipage_tabs li.active { background: #CCC; } 
