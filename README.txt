@@ -2,6 +2,9 @@ jQuery Multipage Form Plugin 1.0
 
 Copyright (c) 2011 XOXCO, Inc
 
+See a live example here:
+http://xoxco.com/x/multipage/example.html
+
 Documentation for this plugin lives here:
 https://github.com/xoxco/jQuery-Multipage-Form
 
