@@ -183,7 +183,7 @@
 	
 	jQuery.fn.multipage = function(options) { 
 		
-		settings = jQuery.extend({stayLinkable:true,submitLabel:'Submit',hideLegend:false,hideSubmit:true,generateNavigation:true,activeDot:'&nbsp;&#x25CF;',inactiveDot:'&nbsp;&middot;'},options);
+		settings = jQuery.extend({stayLinkable:false,submitLabel:'Submit',hideLegend:false,hideSubmit:true,generateNavigation:true,activeDot:'&nbsp;&#x25CF;',inactiveDot:'&nbsp;&middot;'},options);
 		id = '#' + $(this).attr('id');
 		var form = $(this);			
 		
