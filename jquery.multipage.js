@@ -30,14 +30,12 @@
 					state = state + settings.inactiveDot;
 				}
 			}
-			$(id+"_nav .multipage_state").html(state);
-			
+			$(id+"_nav .multipage_state").html(state);	
 		}
 
 		
 		jQuery.fn.gotopage = function(page) {
 			$(id + '_nav .multipage_next').html('Next');				
-			
 			
 			if (isNaN(page)) { 
 				q = page;
@@ -228,7 +226,8 @@
 					settings.navigationFunction($(this).getPages());
 				} else {
 					// insert navigation
-					$('<div class="multipage_nav" id="multipage_nav"><a href="#" class="multipage_back" onclick="return  $(\''+id+'\').prevpage();">Back</a><a href="#"  class="multipage_next" onclick="return $(\''+id+'\').nextpage();">Next</a><span class="multipage_state"></span><div class="clearer"></div></div>').insertAfter(this);
+                                        var id_name = $(this).attr('id');
+                                        $('<div class="multipage_nav" id="'+id_name+'_nav"><a href="#" class="multipage_back" onclick="return  $(\''+id+'\').prevpage();">Back</a><a href="#"  class="multipage_next" onclick="return $(\''+id+'\').nextpage();">Next</a><span class="multipage_state"></span><div class="clearer"></div></div>').insertAfter(this);
 				}
 			}				
 			

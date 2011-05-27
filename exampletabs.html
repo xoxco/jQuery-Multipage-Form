@@ -8,7 +8,7 @@
 
 	<script type="text/javascript">
 		$(window).ready(function() {
-                        $('#multipage').multipage();
+                        $('#multipage').multipage({navigationFunction:generateTabs,stateFunction:setActiveTab,hideSubmit:false});
 			$('form').submit(function(){ alert("Submitted!"); return false;});
 		});
 		
@@ -54,12 +54,13 @@
 
 <body>
 	<h1>jQuery Multipage Form Plugin</h1>
-	<p>Takes a very basic form and break it into multiple pages, with lots of fancy options!</p>
+	<p>Navigate options by tabs</p>
 
+	
+        <a href="example.html">Turn into multipage form</a><br />
+        OR<br />
         <a href="examplealtstate.html">Turn into multipage form with an alternate state handler and transition handler</a><br />
-            OR<br />
-	<a href="exampletabs.html">Turn into tabbed form</a>
-   
+
 	<div style="width:500px; margin:20px; padding:10px; border:20px solid #F0F0F0;">
 	<form id="multipage">
 		<fieldset id="page_one">
