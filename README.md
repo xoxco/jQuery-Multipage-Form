@@ -7,6 +7,8 @@ to break them up into multiple pages.  This plugin does that!
 
 [View Demo](http://xoxco.com/projects/code/multipage/)
 
+[Test it yourself using this jsFiddle Demo](http://jsfiddle.net/eJKQn/)
+
 Created by [XOXCO](http://xoxco.com)
 
 
