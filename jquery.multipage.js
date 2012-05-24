@@ -113,7 +113,7 @@
 			}
 			
 			$(id + ' fieldset.active input:first').focus();
-			
+			curpage=page;
 			return false;
 			
 		}
@@ -153,7 +153,7 @@
 				if (curpage > settings.pages.length) {
 					// submit!
 					$(this).submit();
-					 curpage = settings.pages;
+					 curpage = settings.pages.length;
 					 return false;
 				}
 				$(this).gotopage(curpage);
